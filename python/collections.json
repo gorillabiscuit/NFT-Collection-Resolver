@@ -1,0 +1,904 @@
+{
+  "version": "1.1",
+  "last_updated": "2024-12-19",
+  "description": "NFT Collection metadata for name resolution - Top collections by lending volume",
+  "collections": [
+    {
+      "name": "CryptoPunks",
+      "slug": "cryptopunks",
+      "contract_address": "0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb",
+      "chain": "ethereum",
+      "aliases": [
+        "punks",
+        "cp",
+        "cryptopunk",
+        "larva labs punks",
+        "crypto punks",
+        "punk"
+      ],
+      "wrapper_contracts": [
+        "0xb7f7f6c52f2e2fdb1963eab30438024864c313f6",
+        "0x000000000000003607fce1ac9e043a86675c5c2f"
+      ],
+      "id_ranges": null,
+      "group_id": "cryptopunks",
+      "category": "pfp",
+      "metadata": {
+        "opensea_slug": "cryptopunks",
+        "verified": true,
+        "popularity_rank": 1,
+        "description": "10,000 unique collectible characters with proof of ownership on Ethereum",
+        "image_url": "https://cryptopunks.app/public/images/cryptopunks/punk3100.png"
+      }
+    },
+    {
+      "name": "Wrapped CryptoPunks",
+      "slug": "wrapped-cryptopunks",
+      "contract_address": "0xb7f7f6c52f2e2fdb1963eab30438024864c313f6",
+      "chain": "ethereum",
+      "aliases": [
+        "wpunks",
+        "wrapped punks",
+        "w-punks",
+        "punk wrappers",
+        "wrapped cryptopunk",
+        "wrapped cp"
+      ],
+      "wrapper_contracts": [],
+      "id_ranges": null,
+      "group_id": "cryptopunks",
+      "category": "pfp",
+      "metadata": {
+        "parent_collection": "0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb",
+        "opensea_slug": "wrapped-cryptopunks",
+        "verified": true,
+        "popularity_rank": 8,
+        "description": "ERC-721 wrapped version of CryptoPunks for better DeFi compatibility",
+        "image_url": "https://cryptopunks.app/public/images/cryptopunks/punk3100.png"
+      }
+    },
+    {
+      "name": "CryptoPunks 721",
+      "slug": "cryptopunks-721",
+      "contract_address": "0x000000000000003607fce1ac9e043a86675c5c2f",
+      "chain": "ethereum",
+      "aliases": [
+        "official wrapped cryptopunks",
+        "cryptopunks wrapper",
+        "cp 721",
+        "punk 721"
+      ],
+      "wrapper_contracts": [],
+      "id_ranges": null,
+      "group_id": "cryptopunks",
+      "category": "pfp",
+      "metadata": {
+        "parent_collection": "0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb",
+        "opensea_slug": "cryptopunks-721",
+        "verified": true,
+        "popularity_rank": 9,
+        "description": "Official ERC-721 wrapper for CryptoPunks",
+        "image_url": "https://cryptopunks.app/public/images/cryptopunks/punk3100.png"
+      }
+    },
+    {
+      "name": "Bored Ape Yacht Club",
+      "slug": "bored-ape-yacht-club",
+      "contract_address": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+      "chain": "ethereum",
+      "aliases": [
+        "bayc",
+        "bored apes",
+        "bored ape",
+        "apes",
+        "bored ape yc",
+        "yacht club"
+      ],
+      "wrapper_contracts": [],
+      "id_ranges": null,
+      "group_id": "yuga-labs",
+      "category": "pfp",
+      "metadata": {
+        "opensea_slug": "boredapeyachtclub",
+        "verified": true,
+        "popularity_rank": 2,
+        "description": "A collection of 10,000 Bored Ape NFTs - unique digital collectibles living on Ethereum"
+      }
+    },
+    {
+      "name": "Mutant Ape Yacht Club",
+      "slug": "mutant-ape-yacht-club",
+      "contract_address": "0x60e4d786628fea6478f785a6d7e704777c86a7c6",
+      "chain": "ethereum",
+      "aliases": [
+        "mayc",
+        "mutant apes",
+        "mutant ape",
+        "mutants",
+        "mutant yc",
+        "mayc mutants"
+      ],
+      "wrapper_contracts": [],
+      "id_ranges": null,
+      "group_id": "yuga-labs",
+      "category": "pfp",
+      "metadata": {
+        "opensea_slug": "mutant-ape-yacht-club",
+        "verified": true,
+        "popularity_rank": 3,
+        "description": "A collection of up to 20,000 Mutant Apes that can only be created by exposing a Bored Ape to a vial of MUTANT SERUM"
+      }
+    },
+    {
+      "name": "Bored Ape Kennel Club",
+      "slug": "bored-ape-kennel-club",
+      "contract_address": "0xba30e5f9bb24caa003e9f2f0497ad287fdf95623",
+      "chain": "ethereum",
+      "aliases": [
+        "bakc",
+        "kennel club",
+        "bored ape kennel",
+        "dogs",
+        "ape dogs",
+        "kennel"
+      ],
+      "wrapper_contracts": [],
+      "id_ranges": null,
+      "group_id": "yuga-labs",
+      "category": "pfp",
+      "metadata": {
+        "opensea_slug": "bored-ape-kennel-club",
+        "verified": true,
+        "popularity_rank": 5,
+        "description": "A collection of Bored Ape Kennel Club dogs"
+      }
+    },
+    {
+      "name": "Azuki",
+      "slug": "azuki",
+      "contract_address": "0xed5af388653567af2f388e6224dc7c4b3241c544",
+      "chain": "ethereum",
+      "aliases": [
+        "azuki collection",
+        "azuki nft",
+        "chiru labs",
+        "azukis"
+      ],
+      "wrapper_contracts": [],
+      "id_ranges": null,
+      "group_id": "chiru-labs",
+      "category": "pfp",
+      "metadata": {
+        "opensea_slug": "azuki",
+        "verified": true,
+        "popularity_rank": 4,
+        "description": "A collection of 10,000 avatars that give you membership access to The Garden"
+      }
+    },
+    {
+      "name": "CloneX",
+      "slug": "clonex",
+      "contract_address": "0x49cf6f5d44e70224e2e23fdcdd2c053f30ada28b",
+      "chain": "ethereum",
+      "aliases": [
+        "clone x",
+        "rtfkt clonex",
+        "rtfkt",
+        "clones",
+        "clone x - x takashi murakami"
+      ],
+      "wrapper_contracts": [],
+      "id_ranges": null,
+      "group_id": "rtfkt",
+      "category": "pfp",
+      "metadata": {
+        "opensea_slug": "clonex",
+        "verified": true,
+        "popularity_rank": 6,
+        "description": "Next-gen Avatars, by RTFKT and Takashi Murakami"
+      }
+    },
+    {
+      "name": "Doodles",
+      "slug": "doodles-official",
+      "contract_address": "0x8a90cab2b38dba80c64b7734e58ee1db38b8992e",
+      "chain": "ethereum",
+      "aliases": [
+        "doodles nft",
+        "doodle",
+        "doodles collection"
+      ],
+      "wrapper_contracts": [
+        "0x620b70123fb810f6c653da7644b5dd0b6312e4d8"
+      ],
+      "id_ranges": [
+        {
+          "start": 0,
+          "end": 9999,
+          "label": "Doodles Collection"
+        }
+      ],
+      "group_id": "doodles",
+      "category": "pfp",
+      "metadata": {
+        "opensea_slug": "doodles-official",
+        "verified": true,
+        "popularity_rank": 7,
+        "description": "A community-driven collectibles project featuring art by Burnt Toast",
+        "image_url": "https://i.seadn.io/gcs/files/9c2d8c45d5b9c66f9b338b12d042974c.png?h=250&w=250"
+      }
+    },
+    {
+      "name": "Art Blocks Curated",
+      "slug": "artblocks-curated",
+      "contract_address": "0xa7d8d9ef8d8ce3b6004c0b4b01c10d2d6d40b848",
+      "chain": "ethereum",
+      "aliases": [
+        "artblocks curated",
+        "ab curated",
+        "art blocks curated",
+        "art blocks",
+        "artblocks"
+      ],
+      "wrapper_contracts": [],
+      "id_ranges": [
+        {
+          "start": 0,
+          "end": 373000,
+          "label": "Curated Projects"
+        }
+      ],
+      "group_id": "artblocks",
+      "category": "generative-art",
+      "metadata": {
+        "opensea_slug": "art-blocks",
+        "verified": true,
+        "popularity_rank": 10,
+        "description": "Art Blocks Curated is home to flagship long-form generative projects"
+      }
+    },
+    {
+      "name": "Chromie Squiggle by Snowfro",
+      "slug": "chromie-squiggle-by-snowfro",
+      "contract_address": "0x059edd72cd353df5106d2b9cc5ab83a52287ac3a",
+      "chain": "ethereum",
+      "aliases": [
+        "squiggles",
+        "chromie squiggles",
+        "art blocks squiggle",
+        "snowfro squiggle",
+        "chromie squiggle",
+        "chromie squiggle by snowfro"
+      ],
+      "wrapper_contracts": [],
+      "id_ranges": [
+        {
+          "start": 0,
+          "end": 9999,
+          "label": "Chromie Squiggle Collection"
+        }
+      ],
+      "group_id": "artblocks",
+      "category": "generative-art",
+      "metadata": {
+        "opensea_slug": "chromie-squiggle-by-snowfro",
+        "verified": true,
+        "popularity_rank": 11,
+        "description": "Simple and easily identifiable, Chromie Squiggles are the perfect pfp for the crypto-native",
+        "image_url": "https://s3.amazonaws.com/cdn.nftpricefloor/projects/v1/chromie-squiggle-art-blocks-curated.png?version=6"
+      }
+    },
+    {
+      "name": "Cool Cats NFT",
+      "slug": "cool-cats",
+      "contract_address": "0x1a92f7381b9f03921564a437210bb9396471050c",
+      "chain": "ethereum",
+      "aliases": [
+        "cool cats",
+        "coolcats",
+        "cats",
+        "cool cat"
+      ],
+      "wrapper_contracts": [],
+      "id_ranges": null,
+      "group_id": "cool-cats",
+      "category": "pfp",
+      "metadata": {
+        "opensea_slug": "cool-cats-nft",
+        "verified": true,
+        "popularity_rank": 12,
+        "description": "Cool Cats is a collection of 9,999 randomly generated and stylistically curated NFTs"
+      }
+    },
+    {
+      "name": "World of Women",
+      "slug": "world-of-women",
+      "contract_address": "0xe785e82358879f061bc3dcac6f0444462d4b5330",
+      "chain": "ethereum",
+      "aliases": [
+        "wow",
+        "world of women nft",
+        "women",
+        "wow nft"
+      ],
+      "wrapper_contracts": [],
+      "id_ranges": null,
+      "group_id": "world-of-women",
+      "category": "pfp",
+      "metadata": {
+        "opensea_slug": "world-of-women-nft",
+        "verified": true,
+        "popularity_rank": 13,
+        "description": "World of Women is a collection of 10,000 NFTs that gives you membership access to a network of incredible women"
+      }
+    },
+    {
+      "name": "Moonbirds",
+      "slug": "moonbirds",
+      "contract_address": "0x23581767a106ae21c074b2276d25e5c3e136a68b",
+      "chain": "ethereum",
+      "aliases": [
+        "moonbird",
+        "moon birds",
+        "moonbirdz",
+        "proof collective"
+      ],
+      "wrapper_contracts": [],
+      "id_ranges": null,
+      "group_id": "proof",
+      "category": "pfp",
+      "metadata": {
+        "opensea_slug": "proof-moonbirds",
+        "verified": true,
+        "popularity_rank": 14,
+        "description": "A collection of 10,000 utility-enabled PFPs that feature a richly diverse and unique pool of rarity-powered traits"
+      }
+    },
+    {
+      "name": "VeeFriends",
+      "slug": "veefriends",
+      "contract_address": "0xa3aee8bce55beea1951ef834b99f3ac60d1abeeb",
+      "chain": "ethereum",
+      "aliases": [
+        "vee friends",
+        "gary vee",
+        "gary vaynerchuk",
+        "vf"
+      ],
+      "wrapper_contracts": [],
+      "id_ranges": null,
+      "group_id": "veefriends",
+      "category": "pfp",
+      "metadata": {
+        "opensea_slug": "veefriends",
+        "verified": true,
+        "popularity_rank": 15,
+        "description": "VeeFriends is the name of Gary Vaynerchuk's NFT collection"
+      }
+    },
+    {
+      "name": "Pudgy Penguins",
+      "slug": "pudgy-penguins",
+      "contract_address": "0xbd3531da5cf5857e7cfaa92426877b022e612cf8",
+      "chain": "ethereum",
+      "aliases": [
+        "pudgy",
+        "penguins",
+        "pudgy penguin",
+        "ppg",
+        "pudgies"
+      ],
+      "wrapper_contracts": [],
+      "id_ranges": null,
+      "group_id": "pudgy-penguins",
+      "category": "pfp",
+      "metadata": {
+        "opensea_slug": "pudgypenguins",
+        "verified": true,
+        "popularity_rank": 16,
+        "description": "Pudgy Penguins is a collection of 8,888 NFTs, accelerating Web3 innovation through IP utilization and community empowerment"
+      }
+    },
+    {
+      "name": "Lil Pudgys",
+      "slug": "lil-pudgys",
+      "contract_address": "0x524cab2ec69124574082676e6f654a18df49a048",
+      "chain": "ethereum",
+      "aliases": [
+        "lil pudgy",
+        "little pudgys",
+        "lil penguins",
+        "baby pudgys",
+        "lil pudgies"
+      ],
+      "wrapper_contracts": [],
+      "id_ranges": null,
+      "group_id": "pudgy-penguins",
+      "category": "pfp",
+      "metadata": {
+        "opensea_slug": "lilpudgys",
+        "verified": true,
+        "popularity_rank": 17,
+        "description": "Lil Pudgys is a collection of 22,222 randomly generated NFTs minted from the original Pudgy Penguins collection"
+      }
+    },
+    {
+      "name": "Milady Maker",
+      "slug": "milady-maker",
+      "contract_address": "0x5af05d7ba0543edb0a20ff3d65d0c4db9bca25a5",
+      "chain": "ethereum",
+      "aliases": [
+        "miladys",
+        "milady"
+      ],
+      "wrapper_contracts": [],
+      "id_ranges": null,
+      "group_id": "remilia",
+      "category": "pfp",
+      "metadata": {
+        "opensea_slug": "milady-maker",
+        "verified": true,
+        "popularity_rank": 18,
+        "description": "Neo-Chibi pfp collection"
+      }
+    },
+    {
+      "name": "Autoglyphs",
+      "slug": "autoglyphs",
+      "contract_address": "0xd4e4078ca3495de5b1d4db434bebc5a986197782",
+      "chain": "ethereum",
+      "aliases": [
+        "larva labs autoglyphs",
+        "glyphs"
+      ],
+      "wrapper_contracts": [],
+      "id_ranges": null,
+      "group_id": "larva-labs",
+      "category": "generative-art",
+      "metadata": {
+        "opensea_slug": "autoglyphs",
+        "verified": true,
+        "popularity_rank": 19,
+        "description": "Autoglyphs are the first on-chain generative art on Ethereum",
+        "image_url": "https://www.larvalabs.com/public/images/autoglyphs/glyph1.svg"
+      }
+    },
+    {
+      "name": "Fidenza by Tyler Hobbs",
+      "slug": "fidenza-by-tyler-hobbs",
+      "contract_address": "0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270",
+      "chain": "ethereum",
+      "aliases": [
+        "fidenza",
+        "tyler hobbs fidenza"
+      ],
+      "wrapper_contracts": [],
+      "id_ranges": [
+        {
+          "start": 78000000,
+          "end": 78000998,
+          "label": "Fidenza Collection"
+        }
+      ],
+      "group_id": "artblocks",
+      "category": "generative-art",
+      "metadata": {
+        "opensea_slug": "fidenza-by-tyler-hobbs",
+        "verified": true,
+        "popularity_rank": 20,
+        "description": "Fidenza is Tyler Hobbs' first long-form generative art algorithm",
+        "image_url": "https://s3.amazonaws.com/cdn.nftpricefloor/projects/v1/fidenza-art-blocks-curated.png?version=6"
+      }
+    },
+    {
+      "name": "DeGods",
+      "slug": "degods-eth",
+      "contract_address": "0x8821bee2ba0df28761afff119d66390d594cd280",
+      "chain": "ethereum",
+      "aliases": [
+        "deadgods",
+        "degod"
+      ],
+      "wrapper_contracts": [],
+      "id_ranges": [
+        {
+          "start": 0,
+          "end": 9999,
+          "label": "DeGods Collection"
+        }
+      ],
+      "group_id": "delabs",
+      "category": "pfp",
+      "metadata": {
+        "opensea_slug": "degods-eth",
+        "verified": true,
+        "popularity_rank": 21,
+        "description": "DeGods: A collection of 10,000 degenerative NFTs on Ethereum",
+        "image_url": "https://s3.amazonaws.com/cdn.nftpricefloor/projects/v1/degods.png?version=6"
+      }
+    },
+    {
+      "name": "y00ts",
+      "slug": "y00ts-eth",
+      "contract_address": "0xfd1b0b0dfa524e1fd42e7d51155a663c581bbd50",
+      "chain": "ethereum",
+      "aliases": [
+        "yoots",
+        "y00t"
+      ],
+      "wrapper_contracts": [],
+      "id_ranges": [
+        {
+          "start": 0,
+          "end": 14999,
+          "label": "y00ts Collection"
+        }
+      ],
+      "group_id": "delabs",
+      "category": "pfp",
+      "metadata": {
+        "opensea_slug": "y00ts-eth",
+        "verified": true,
+        "popularity_rank": 22,
+        "description": "y00ts: A collection of 15,000 NFTs on Ethereum by De Labs",
+        "image_url": "https://s3.amazonaws.com/cdn.nftpricefloor/projects/v1/y00ts-ethereum.png?version=6"
+      }
+    },
+    {
+      "name": "Ringers by Dmitri Cherniak",
+      "slug": "ringers-by-dmitri-cherniak",
+      "contract_address": "0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270",
+      "chain": "ethereum",
+      "aliases": [
+        "ringers",
+        "dmitri cherniak ringers"
+      ],
+      "wrapper_contracts": [],
+      "id_ranges": [
+        {
+          "start": 13000000,
+          "end": 13000999,
+          "label": "Ringers Collection"
+        }
+      ],
+      "group_id": "artblocks",
+      "category": "generative-art",
+      "metadata": {
+        "opensea_slug": "ringers-by-dmitri-cherniak",
+        "verified": true,
+        "popularity_rank": 23,
+        "description": "Ringers by Dmitri Cherniak - Art Blocks Curated generative art collection",
+        "image_url": "https://s3.amazonaws.com/cdn.nftpricefloor/projects/v1/ringers-art-blocks-curated.png?version=6"
+      }
+    },
+    {
+      "name": "Meridian by Matt DesLauriers",
+      "slug": "meridian-by-matt-deslauriers",
+      "contract_address": "0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270",
+      "chain": "ethereum",
+      "aliases": [
+        "meridian",
+        "matt deslauriers meridian"
+      ],
+      "wrapper_contracts": [],
+      "id_ranges": [
+        {
+          "start": 163000000,
+          "end": 163000999,
+          "label": "Meridian Collection"
+        }
+      ],
+      "group_id": "artblocks",
+      "category": "generative-art",
+      "metadata": {
+        "opensea_slug": "meridian-by-matt-deslauriers",
+        "verified": true,
+        "popularity_rank": 24,
+        "description": "Meridian by Matt DesLauriers - Art Blocks Playground generative art collection",
+        "image_url": "https://s3.amazonaws.com/cdn.nftpricefloor/projects/v1/meridian-art-blocks-playground.png?version=6"
+      }
+    },
+    {
+      "name": "Fragments of an Infinite Field by Monica Rizzolli",
+      "slug": "fragments-of-an-infinite-field-by-monica-rizzolli",
+      "contract_address": "0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270",
+      "chain": "ethereum",
+      "aliases": [
+        "fragments of an infinite field",
+        "monica rizzolli fragments"
+      ],
+      "wrapper_contracts": [],
+      "id_ranges": [
+        {
+          "start": 159000000,
+          "end": 159001023,
+          "label": "Fragments Collection"
+        }
+      ],
+      "group_id": "artblocks",
+      "category": "generative-art",
+      "metadata": {
+        "opensea_slug": "fragments-of-an-infinite-field-by-monica-rizzolli",
+        "verified": true,
+        "popularity_rank": 25,
+        "description": "Fragments of an Infinite Field by Monica Rizzolli - Art Blocks Curated generative art collection",
+        "image_url": "https://s3.amazonaws.com/cdn.nftpricefloor/projects/v1/fragments-of-an-infinite-field-art-blocks-curated.png?version=6"
+      }
+    },
+    {
+      "name": "Memories of Qilin by Emily Xie",
+      "slug": "memories-of-qilin-by-emily-xie",
+      "contract_address": "0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270",
+      "chain": "ethereum",
+      "aliases": [
+        "memories of qilin",
+        "emily xie memories"
+      ],
+      "wrapper_contracts": [],
+      "id_ranges": [
+        {
+          "start": 282000000,
+          "end": 282001023,
+          "label": "Memories of Qilin Collection"
+        }
+      ],
+      "group_id": "artblocks",
+      "category": "generative-art",
+      "metadata": {
+        "opensea_slug": "memories-of-qilin-by-emily-xie",
+        "verified": true,
+        "popularity_rank": 26,
+        "description": "Memories of Qilin by Emily Xie - Art Blocks Curated generative art collection",
+        "image_url": "https://s3.amazonaws.com/cdn.nftpricefloor/projects/v1/memories-of-qilin-art-blocks-curated.png?version=6"
+      }
+    },
+    {
+      "name": "Human Unreadable by Operator",
+      "slug": "human-unreadable-by-operator",
+      "contract_address": "0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270",
+      "chain": "ethereum",
+      "aliases": [
+        "human unreadable",
+        "operator human unreadable"
+      ],
+      "wrapper_contracts": [],
+      "id_ranges": [
+        {
+          "start": 455000000,
+          "end": 455000399,
+          "label": "Human Unreadable Collection"
+        }
+      ],
+      "group_id": "artblocks",
+      "category": "generative-art",
+      "metadata": {
+        "opensea_slug": "human-unreadable-by-operator",
+        "verified": true,
+        "popularity_rank": 27,
+        "description": "Human Unreadable by Operator - Art Blocks generative art collection",
+        "image_url": "https://s3.amazonaws.com/cdn.nftpricefloor/projects/v1/human-unreadable-by-operator.png?version=6"
+      }
+    },
+    {
+      "name": "The Harvest by Per Kristian Stoveland",
+      "slug": "the-harvest-by-per-kristian-stoveland",
+      "contract_address": "0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270",
+      "chain": "ethereum",
+      "aliases": [
+        "the harvest",
+        "per kristian stoveland harvest"
+      ],
+      "wrapper_contracts": [],
+      "id_ranges": [
+        {
+          "start": 407000000,
+          "end": 407000399,
+          "label": "The Harvest Collection"
+        }
+      ],
+      "group_id": "artblocks",
+      "category": "generative-art",
+      "metadata": {
+        "opensea_slug": "the-harvest-by-per-kristian-stoveland",
+        "verified": true,
+        "popularity_rank": 28,
+        "description": "The Harvest by Per Kristian Stoveland - Art Blocks generative art collection",
+        "image_url": "https://s3.amazonaws.com/cdn.nftpricefloor/projects/v1/the-harvest-by-per-kristian-stoveland.png?version=6"
+      }
+    },
+    {
+      "name": "Anticyclone by William Mapan",
+      "slug": "anticyclone-by-william-mapan",
+      "contract_address": "0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270",
+      "chain": "ethereum",
+      "aliases": [
+        "anticyclone",
+        "william mapan anticyclone"
+      ],
+      "wrapper_contracts": [],
+      "id_ranges": [
+        {
+          "start": 286000000,
+          "end": 286000799,
+          "label": "Anticyclone Collection"
+        }
+      ],
+      "group_id": "artblocks",
+      "category": "generative-art",
+      "metadata": {
+        "opensea_slug": "anticyclone-by-william-mapan",
+        "verified": true,
+        "popularity_rank": 29,
+        "description": "Anticyclone by William Mapan - Art Blocks Curated generative art collection",
+        "image_url": "https://s3.amazonaws.com/cdn.nftpricefloor/projects/v1/anticyclone-art-blocks-curated.png?version=6"
+      }
+    },
+    {
+      "name": "FAKE IT TILL YOU MAKE IT by Maya Man",
+      "slug": "fake-it-till-you-make-it-by-maya-man",
+      "contract_address": "0xa7d8d9ef8d8ce3992df33d8b8cf4aebabd5bd270",
+      "chain": "ethereum",
+      "aliases": [
+        "fake it till you make it",
+        "maya man fake it"
+      ],
+      "wrapper_contracts": [],
+      "id_ranges": [
+        {
+          "start": 337000000,
+          "end": 337000699,
+          "label": "FAKE IT TILL YOU MAKE IT Collection"
+        }
+      ],
+      "group_id": "artblocks",
+      "category": "generative-art",
+      "metadata": {
+        "opensea_slug": "fake-it-till-you-make-it-by-maya-man",
+        "verified": true,
+        "popularity_rank": 30,
+        "description": "FAKE IT TILL YOU MAKE IT by Maya Man - Art Blocks generative art collection",
+        "image_url": "https://s3.amazonaws.com/cdn.nftpricefloor/projects/v1/fake-it-till-you-make-it-by-maya-man.png?version=6"
+      }
+    },
+    {
+      "name": "alignDRAW",
+      "slug": "aligndraw",
+      "contract_address": "0x9cf0ab1cc434db83097b7e9c831a764481dec747",
+      "chain": "ethereum",
+      "aliases": [
+        "align draw",
+        "aligndraw collection"
+      ],
+      "wrapper_contracts": [],
+      "id_ranges": [
+        {
+          "start": 0,
+          "end": 2708,
+          "label": "alignDRAW Collection"
+        }
+      ],
+      "group_id": "fellowship",
+      "category": "generative-art",
+      "metadata": {
+        "opensea_slug": "aligndraw",
+        "verified": true,
+        "popularity_rank": 31,
+        "description": "alignDRAW - Fellowship generative art collection",
+        "image_url": "https://s3.amazonaws.com/cdn.nftpricefloor/projects/v1/aligndraw.png?version=6"
+      }
+    }
+  ],
+  "lookup_index": {
+    "bayc": "bored-ape-yacht-club",
+    "bored apes": "bored-ape-yacht-club",
+    "bored ape": "bored-ape-yacht-club",
+    "apes": "bored-ape-yacht-club",
+    "bored ape yc": "bored-ape-yacht-club",
+    "yacht club": "bored-ape-yacht-club",
+    "mayc": "mutant-ape-yacht-club",
+    "mutant apes": "mutant-ape-yacht-club",
+    "mutant ape": "mutant-ape-yacht-club",
+    "mutants": "mutant-ape-yacht-club",
+    "mutant yc": "mutant-ape-yacht-club",
+    "mayc mutants": "mutant-ape-yacht-club",
+    "bakc": "bored-ape-kennel-club",
+    "kennel club": "bored-ape-kennel-club",
+    "bored ape kennel": "bored-ape-kennel-club",
+    "dogs": "bored-ape-kennel-club",
+    "ape dogs": "bored-ape-kennel-club",
+    "kennel": "bored-ape-kennel-club",
+    "punks": "cryptopunks",
+    "cp": "cryptopunks",
+    "cryptopunk": "cryptopunks",
+    "larva labs punks": "cryptopunks",
+    "crypto punks": "cryptopunks",
+    "punk": "cryptopunks",
+    "wpunks": "wrapped-cryptopunks",
+    "wrapped punks": "wrapped-cryptopunks",
+    "w-punks": "wrapped-cryptopunks",
+    "punk wrappers": "wrapped-cryptopunks",
+    "wrapped cryptopunk": "wrapped-cryptopunks",
+    "wrapped cp": "wrapped-cryptopunks",
+    "official wrapped cryptopunks": "cryptopunks-721",
+    "cryptopunks wrapper": "cryptopunks-721",
+    "cp 721": "cryptopunks-721",
+    "punk 721": "cryptopunks-721",
+    "azuki collection": "azuki",
+    "azuki nft": "azuki",
+    "chiru labs": "azuki",
+    "azukis": "azuki",
+    "clone x": "clonex",
+    "rtfkt clonex": "clonex",
+    "rtfkt": "clonex",
+    "clones": "clonex",
+    "clone x - x takashi murakami": "clonex",
+    "doodles nft": "doodles-official",
+    "doodle": "doodles-official",
+    "doodles collection": "doodles-official",
+    "artblocks curated": "artblocks-curated",
+    "ab curated": "artblocks-curated",
+    "art blocks curated": "artblocks-curated",
+    "art blocks": "artblocks-curated",
+    "artblocks": "artblocks-curated",
+    "squiggles": "chromie-squiggle-by-snowfro",
+    "chromie squiggles": "chromie-squiggle-by-snowfro",
+    "art blocks squiggle": "chromie-squiggle-by-snowfro",
+    "snowfro squiggle": "chromie-squiggle-by-snowfro",
+    "chromie squiggle": "chromie-squiggle-by-snowfro",
+    "chromie squiggle by snowfro": "chromie-squiggle-by-snowfro",
+    "cool cats": "cool-cats",
+    "coolcats": "cool-cats",
+    "cats": "cool-cats",
+    "cool cat": "cool-cats",
+    "wow": "world-of-women",
+    "world of women nft": "world-of-women",
+    "women": "world-of-women",
+    "wow nft": "world-of-women",
+    "moonbird": "moonbirds",
+    "moon birds": "moonbirds",
+    "moonbirdz": "moonbirds",
+    "proof collective": "moonbirds",
+    "vee friends": "veefriends",
+    "gary vee": "veefriends",
+    "gary vaynerchuk": "veefriends",
+    "vf": "veefriends",
+    "pudgy": "pudgy-penguins",
+    "penguins": "pudgy-penguins",
+    "pudgy penguin": "pudgy-penguins",
+    "ppg": "pudgy-penguins",
+    "pudgies": "pudgy-penguins",
+    "lil pudgy": "lil-pudgys",
+    "little pudgys": "lil-pudgys",
+    "lil penguins": "lil-pudgys",
+    "baby pudgys": "lil-pudgys",
+    "lil pudgies": "lil-pudgys",
+    "miladys": "milady-maker",
+    "milady": "milady-maker",
+    "larva labs autoglyphs": "autoglyphs",
+    "glyphs": "autoglyphs",
+    "fidenza": "fidenza-by-tyler-hobbs",
+    "tyler hobbs fidenza": "fidenza-by-tyler-hobbs",
+    "deadgods": "degods-eth",
+    "degod": "degods-eth",
+    "yoots": "y00ts-eth",
+    "y00t": "y00ts-eth",
+    "ringers": "ringers-by-dmitri-cherniak",
+    "dmitri cherniak ringers": "ringers-by-dmitri-cherniak",
+    "meridian": "meridian-by-matt-deslauriers",
+    "matt deslauriers meridian": "meridian-by-matt-deslauriers",
+    "fragments of an infinite field": "fragments-of-an-infinite-field-by-monica-rizzolli",
+    "monica rizzolli fragments": "fragments-of-an-infinite-field-by-monica-rizzolli",
+    "memories of qilin": "memories-of-qilin-by-emily-xie",
+    "emily xie memories": "memories-of-qilin-by-emily-xie",
+    "human unreadable": "human-unreadable-by-operator",
+    "operator human unreadable": "human-unreadable-by-operator",
+    "the harvest": "the-harvest-by-per-kristian-stoveland",
+    "per kristian stoveland harvest": "the-harvest-by-per-kristian-stoveland",
+    "anticyclone": "anticyclone-by-william-mapan",
+    "william mapan anticyclone": "anticyclone-by-william-mapan",
+    "fake it till you make it": "fake-it-till-you-make-it-by-maya-man",
+    "maya man fake it": "fake-it-till-you-make-it-by-maya-man",
+    "align draw": "aligndraw",
+    "aligndraw collection": "aligndraw"
+  }
+}

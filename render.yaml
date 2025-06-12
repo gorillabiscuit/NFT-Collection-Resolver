@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: nft-collection-resolver
+    env: docker
+    region: oregon
+    plan: free
+    dockerfilePath: ./python/Dockerfile
+    healthCheckPath: /
+    autoDeploy: true 

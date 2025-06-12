@@ -1,0 +1,8 @@
+# Optional dependency for improved fuzzy string matching performance
+# If not installed, the resolver will use a fallback implementation
+rapidfuzz>=3.0.0
+
+# API dependencies
+fastapi>=0.68.0
+uvicorn>=0.15.0
+pydantic>=1.8.0 
