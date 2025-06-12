@@ -4,6 +4,6 @@ services:
     env: docker
     region: oregon
     plan: free
-    dockerfilePath: ./python/Dockerfile
+    dockerfilePath: ./Dockerfile
     healthCheckPath: /
     autoDeploy: true 
