@@ -1,4 +1,5 @@
 from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import Optional, List, Dict, Any
 import uvicorn
@@ -8,6 +9,26 @@ app = FastAPI(
     title="NFT Collection Resolver API",
     description="API for resolving NFT collection names to their canonical information and contract addresses",
     version="1.0.0"
+)
+
+# Configure CORS
+origins = [
+    "http://localhost:3000",     # React default port
+    "http://localhost:8000",     # Development server
+    "http://localhost:8080",     # Alternative development port
+    "http://127.0.0.1:3000",    # React with IP
+    "http://127.0.0.1:8000",    # Development with IP
+    "http://127.0.0.1:8080",    # Alternative development with IP
+    "https://nft-collection-resolver.onrender.com",  # Production API
+    "*"  # Allow all origins (you might want to restrict this in production)
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],  # Allows all methods
+    allow_headers=["*"],  # Allows all headers
 )
 
 # Initialize the resolver
